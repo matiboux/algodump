@@ -4,13 +4,16 @@ Scripts for dumping traces of Algorithmic practicals at EPITA
 
 ## Prerequisites
 
-First step is to dump traces of Algorithmic practicals from [Algo-TD](https://algo-td.infoprepa.epita.fr/).
+The first step is to download traces of Algorithmic practicals from [Algo-TD](https://algo-td.infoprepa.epita.fr/).
 
-How would you do that? Here's a command to help: `wget <url_to_folder_to_traces> -r -np`
+Locate where the traces you want to download are hosted, then use this command:
+```
+wget -r -np -nd -P algodump/ <folder_url_to_traces>
+```
 
-Traces files are named `[login].html` and must be saved in a new folder in your current directory: `algodump/`
+The downloaded traces files should be named `<login>.html` and are saved in a new folder in your current directory: `algodump/`
 
-The directory structure should look like this:
+The overall directory structure should look like this:
 ```
 ./
   algodump/
@@ -20,7 +23,7 @@ The directory structure should look like this:
   s.sh
 ```
 
-_Deal with the weird script file names yourself. ❤_
+_Deal with the weird script file names yourself._ ❤
 
 ## Scripts!
 
@@ -37,6 +40,7 @@ The `s.grades` output format is:
 ```
 login\t20.00
 another\t17.42
+...
 ```
 With `\t` as a TAB character.
 
