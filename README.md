@@ -16,11 +16,11 @@ The directory structure should look like this:
   algodump/
            login.html
            another.html
-		   ...
+           ...
   s.sh
 ```
 
-_Deal with the weird names yourself. ❤_
+_Deal with the weird script file names yourself. ❤_
 
 ## Scripts!
 
@@ -28,7 +28,10 @@ _Deal with the weird names yourself. ❤_
 
 > ***The Stats Gatherer***
 
-Once the `algodump/` folder exists and contains valid files, this script should be able to generate a new file on its own: `s.grades`. This new file contains all grades associated with all logins from traces stored in `algodump/`.
+Now that the `algodump/` folder exists and contains valid files,
+the `s.sh` script should be able to generate a new file on its own: `s.grades`.
+
+This new file will contain all grades associated with logins from traces stored in `algodump/`.
 
 The `s.grades` output format is:
 ```
@@ -36,6 +39,8 @@ login\t20.00
 another\t17.42
 ```
 With `\t` as a TAB character.
+
+Then, copy & paste the file content into a spreadsheet document to make stats!
 
 
 ## Contact
