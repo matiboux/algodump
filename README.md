@@ -47,6 +47,15 @@ With `\t` as a TAB character.
 Then, copy & paste the file content into a spreadsheet document to make stats!
 
 
+### i.sh
+
+> ***The Information Gatherer***
+
+This script will download pages containing additionnal information on each login. Files will be saved in a new folder: `infos/`.
+
+Downloaded files depends on the `algodump/` folder content, as it is using it as a list of student logins.
+
+
 ## Contact
 
 Made by **Matiboux**. Ways to contact me:
