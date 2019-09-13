@@ -69,8 +69,10 @@ This new file will contain all overall average grades associated with logins fro
 
 > ***The Huffman Stats Gatherer***
 
-This script is similar to `si_huff.sh` and is used the same way.
+This script is similar to `si_homework.sh` and is used the same way.
 This was specifically used the overall grades for the Huffman homework.
+
+The `si_huff.sh` script should generate a new file: `si_huff.grades`.
 
 
 ## Author
