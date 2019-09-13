@@ -51,14 +51,22 @@ Then, copy & paste the file content into a spreadsheet document to make stats!
 
 > ***The Information Gatherer***
 
-This script will download pages containing additionnal information on each login. Files will be saved in a new folder: `infos/`.
+This script will download pages containing additionnal information on each login.
+Files will be saved in a new folder: `infos/`.
 
 Downloaded files depends on the `algodump/` folder content, as it is using it as a list of student logins.
 
 
-## Contact
+#### si_homework.sh
 
-Made by **Matiboux**. Ways to contact me:
- - **Email**: [matiboux@gmail.com](mailto:matiboux@gmail.com)
- - **Github**: [@matiboux](https://github.com/matiboux)
- - **Telegram**: [@Matiboux](https://t.me/Matiboux)
+> ***The Overall Stats Gatherer***
+
+You need to have ran the `i.sh` script first, as this depends on files in the `infos/` folder.
+The `si_homework.sh` script should generate a new file: `si_homework.grades`.
+
+This new file will contain all overall average grades associated with logins from infos stored in `infos/`.
+
+
+## Author
+
+Made by [**Matiboux**](https://matiboux.me/).
