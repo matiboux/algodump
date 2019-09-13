@@ -56,7 +56,6 @@ Files will be saved in a new folder: `infos/`.
 
 Downloaded files depends on the `algodump/` folder content, as it is using it as a list of student logins.
 
-
 #### si_homework.sh
 
 > ***The Overall Stats Gatherer***
@@ -65,6 +64,13 @@ You need to have ran the `i.sh` script first, as this depends on files in the `i
 The `si_homework.sh` script should generate a new file: `si_homework.grades`.
 
 This new file will contain all overall average grades associated with logins from infos stored in `infos/`.
+
+#### si_huff.sh
+
+> ***The Huffman Stats Gatherer***
+
+This script is similar to `si_huff.sh` and is used the same way.
+This was specifically used the overall grades for the Huffman homework.
 
 
 ## Author
